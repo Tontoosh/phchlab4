@@ -7,7 +7,7 @@ public class GradeCalculator {
             throw new IllegalArgumentException("0-100 hoorond bh estoi");
         }
 
-        if (score >= 90) {
+        if (score > 90) {
             return "A";
         } else if (score >= 80) {
             return "B";
